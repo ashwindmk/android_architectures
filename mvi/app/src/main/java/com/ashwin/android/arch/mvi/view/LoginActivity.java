@@ -101,35 +101,6 @@ public class LoginActivity extends AppCompatActivity implements View {
             LoggedInState loggedInState = (LoggedInState) state;
             renderLoggedIn(loggedInState);
         }
-
-        /*if (state instanceof LoginState) {
-            switch ((LoginState) state) {
-                case LOGIN_CHECK:
-                    renderLoginCheck();
-
-                    break;
-
-                case LOGGED_IN:
-
-                    break;
-
-                case LOGGED_OUT:
-
-                    break;
-
-                case LOGGING_IN:
-
-                    break;
-
-                case LOGIN_CANCEL:
-
-                    break;
-
-                case LOGGING_OUT:
-
-                    break;
-            }
-        }*/
     }
 
     private void renderLaunch(String message) {
