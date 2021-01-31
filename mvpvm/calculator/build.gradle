@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    // Test
+    testImplementation 'junit:junit:4.13.1'
+
+    // MockK test
+    testImplementation "io.mockk:mockk:1.10.5"
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
+}

@@ -1,0 +1,4 @@
+include ':data'
+include ':calculator'
+include ':app'
+rootProject.name = "Clean TDD Calculator"
